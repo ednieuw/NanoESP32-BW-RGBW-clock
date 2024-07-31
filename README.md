@@ -14,4 +14,7 @@ Keeping the source code of the White LED and RGB LED clock was time consuming. T
 
 The RGB(W) clock made it possible to nuilt a 4-language clock with 625 LEDs. The one language designs are much easier to built and can also give a pure white display and if wished also in any colour.
 
-THis is the ultimate fusion of all clocks; one pcb and one source.
+This is the ultimate fusion of all clocks; one pcb and one source code.<br>
+The PCB design was kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
+The PCB was designed with Fritzing and the Gerber files uploaded to PCBWay. Piece of cake.<br>
+
