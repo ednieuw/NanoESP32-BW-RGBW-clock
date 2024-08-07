@@ -16,6 +16,7 @@ Maintaining the source code for the White LED and RGB LED clocks was a time-cons
 The RGB(W) clock made it possible to nuilt a 4-language clock with 625 LEDs. The one language designs are much easier to built and can also give a pure white display and if wished also in any colour.
 
 This is the ultimate fusion of all clocks; one PCB and one source code.<br>
-The PCB design was kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
+The PCB's were kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
 The PCB was designed with Fritzing and the Gerber files uploaded to PCBWay. Delivery to The Netherlands in a week. Piece of cake.<br>
 
+In the [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
