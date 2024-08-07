@@ -19,8 +19,15 @@ The PCB was designed with Fritzing and the Gerber files uploaded to PCBWay. Deli
 
 In the [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
 
+[PCB in Action](https://github.com/user-attachments/assets/d6f986bc-7fbc-4ec3-888b-1f40599507ed) <br>
+All LEDs functioning.
+
 # Components
 ```
+
+
+
+
 1 x PCB Nano ESP32
 1 x Arduino Nano ESP32
 1 x 1000 µF condensator 
