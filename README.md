@@ -52,10 +52,10 @@ In the [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoES
 1 x 5-pin female connector (Rotary)
 1 x 3-pin female connector (DCF77)
 1 x 2-pin female connector (LDR)
-1 x pinheader 40 pins right-angled (2st PCB 5*10cm, 1st PCB 10*10cm)
-3 x 9-pin Dupont female connector  (per 3 stuks)
-1 x  KY-040 Keyes Rotary Encoder
-DCF77 DCF-2 module
+1 x pinheader 40 pins right-angled
+3 x 9-pin Dupont female connector
+1 x KY-040 Keyes Rotary Encoder
+1 x DCF77 DCF-2 module
 1 x 4x3 or 1x3 membrane keypad
 1 x RCT DS3231 Precisie klok module ZS-042
 1 x CR 2032 3V lithium battery
