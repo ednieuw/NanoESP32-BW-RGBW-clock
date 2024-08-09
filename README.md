@@ -46,8 +46,7 @@ Fixed connection from pins A0, A1 and A2 to the three HC595 shift registers that
 - D10 and D12 connect to the right and left LED respectively.
 - All pins can also be accessed from beside the Nano ESP32 connector.
 
-
-A AMS1117 step down voltage regulator an can be fitted to have more power on the 3V3 pins instead of the 3V3 from the Arduino.
+An AMS1117 step down voltage regulator an can be fitted to have more power on the 3V3 pins instead of the 3V3 from the Arduino.
 On top of the PCB a 28L05 can be used to convert 12V to 5 V to drive the 5V part of the PCB.
 At the bottom a 12V to 5V voltage regulator can be fitted instead of the 78L05 voltage regulator.
 
