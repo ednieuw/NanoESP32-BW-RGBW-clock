@@ -14,7 +14,7 @@ The Arduino Nano ESP32 with S3 processor was the promising Arduino product.
 
 Maintaining the source code for the White LED and RGB LED clocks was a time-consuming task. The white LED clock, which has been running in numerous clocks for over 10 years, has been built by many people and proved to be a very solid design wit LEDs operating for more than 10 years.
 
-The RGB(W) clock made it possible to nuilt a 4-language clock with 625 LEDs. The designs with one language in a 12 x 12 letter grid are much easier to built and the SK6812 RGBW LEDs can also give a pure white display and, if wished, also in any colour.
+The RGB(W) clock made it possible to built a 4-language clock with 625 LEDs. The designs with one language in a 12 x 12 letter grid are much easier to built and the SK6812 RGBW LEDs can also give a pure white display and, if wished, also in any colour.
 
 This is the ultimate fusion of all clocks; one PCB and one source code.<br>
 The PCB's were kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
@@ -24,6 +24,19 @@ In the [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoES
 
 [PCB in Action](https://github.com/user-attachments/assets/d6f986bc-7fbc-4ec3-888b-1f40599507ed) <br>
 All LEDs functioning.
+
+
+![image](https://github.com/user-attachments/assets/b389af7f-46d5-4fe7-89f7-c0e3d16f78d4)
+
+# Connections on the PCB.
+The software support all connected devices.
+A One-wire connection to pin A3.   See here [One wire 1x3 and 3x4 membrne keypad](https://ednieuw.home.xs4all.nl/Woordklok/OneWireKeyPad/OneWireKeyPad.html)
+A 6-pin connection to SDA and SCL pin A4 and A5 for a DS3231 RTC module. When no WIFI is available the software can use this very precide RTC module instead of the NTP time
+A 3-pin connection  connected to D8 for a DCF-77 time module to get the time from a in Mainflingen (Germany) located time transmitter. [More here](https://ednieuw.home.xs4all.nl/Woordklok/DCF77_transceiver/DCFtransceiverklok.html). 
+A 5-pin connection for a rotary encoder.
+A 3-pin connection to connect a SK6812 RGBW 0r WS2812 RGB LED strip
+Fixed connection from pins A0, A1 and A2 to the three HC595 shift registers that turns on and off the ULN2803 IC's that switch on and off 12V 2835/3528 and many more white LED strips.
+
 
 # Components
 ```
