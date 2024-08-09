@@ -47,27 +47,25 @@ Fixed connection from pins A0, A1 and A2 to the three HC595 shift registers that
 - All pins can also be accessed from beside the Nano ESP32 connector.
 
 
-A AMS117 step down voltage regulator an can be fitted to have more power on the 3V3 pins instead of the 3V3 from the Arduino.
+A AMS1117 step down voltage regulator an can be fitted to have more power on the 3V3 pins instead of the 3V3 from the Arduino.
 On top of the PCB a 28L05 can be used to convert 12V to 5 V to drive the 5V part of the PCB.
-At the bottom a 12V to 5V voltage regulator can be fitted instead of the 78L05.
+At the bottom a 12V to 5V voltage regulator can be fitted instead of the 78L05 voltage regulator.
 
 It is also possible to use the 5V of the ESP32 Nano when 12V is connected to Vin.
 Altertively 5V can be drawn from the USB port when a USB-C cable is connected to the ESP32.
 With jumpers on the PCB the different power options can be chosen.
 At last a 5V - 12V power supply can be used and connected to the 5V-GND-12V connector at the bottom of the PCB.
 
-For white LED clock only a 12V connection to one of the two 12V power connectors is needed. Connect the 12V to Vin mwith a jumper.
+For white LED clock only a 12V connection to one of the two 12V power connectors is needed. Connect the 12V to Vin with a jumper.<br>
+It is also possible to use a USB 5V to 12V cable. These are cheap and powerfull enough for the clock. Even with a simple phone power supply. 
 
-For the color clocks it is advisable to power the LED-strip separate from the PCB. up to 100 LEDs can be powered from the 5V power connector. But keep in mind the current has to flow throught the PCB and thos thin lines can melt.<br> 
+For the colour clocks it is advisable to power the LED-strip separate from the PCB. up to 100 LEDs can be powered from the 5V power connector. But keep in mind the current has to flow throught the PCB and thos thin lines can melt.<br> 
 It is safer to feed the strip at several positions with 5V and connect at least on GND to the GND of the PCB
 
 
 
 # Components
 ```
-
-
-
 
 1 x PCB Nano ESP32
 1 x Arduino Nano ESP32
@@ -92,8 +90,8 @@ It is safer to feed the strip at several positions with 5V and connect at least 
 1 x 5-pin female connector (Rotary)
 1 x 6-pin female connector (DS3231 RTC)
 2 x 15-pin female connector
-1 x AMS1117 5V -> 3V3 Step-Down Regulator Module
-1 x  12V -> 5V  voltage regulator module
+1 x AMS1117 5V -> 3V3 Step-Down Regulator
+1 x 12V -> 5V  voltage regulator module
 1 x USB cable 5V --> 12V DC
 1 x 6-pin female connector (DS3231 RTC)
 1 x 5-pin female connector (Rotary)
