@@ -8,7 +8,7 @@ One PCB, one source code for 2835/3528 BW and SK6812/WS2812 RGB(W) LED-strips
 The first word clock was designed with a ATMEGA328, combined with a rotary, DCF77 receiver, an accurate DS3231 RTC klok module and a Bluetooth module.
 The electronic design was greatly simplified with the use of Arduino Nano Every and WS2812 RGB or SK6812 RGBW colour LEDs.
 
-The arrival of the ESP32 was superior to the Arduino mcu's with WIFI and Bluetooth working both simultaneously. But with too many short living boards with different foorprints, sizes and, often to less, pins a suitable satisfying design could not be made.
+The arrival of the ESP32 was superior to the Arduino MCU's with WIFI and Bluetooth working both simultaneously. But with too many short living boards with different footprints, sizes and, often to less, pins a suitable satisfying design could not be made.
 
 The Arduino Nano ESP32 with S3 processor was the promising Arduino product. 
 
@@ -20,7 +20,7 @@ This is the ultimate fusion of all clocks; one PCB and one source code.<br>
 The PCB's were kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
 The PCB was designed with Fritzing and the Gerber files uploaded to PCBWay. Delivery to The Netherlands was within a week. Piece of cake.<br>
 
-In the [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
+In [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
 
 [PCB in Action](https://github.com/user-attachments/assets/d6f986bc-7fbc-4ec3-888b-1f40599507ed) <br>
 All LEDs functioning.
@@ -31,28 +31,28 @@ All LEDs functioning.
 # Connections on the PCB.
 The software support all connected devices.
 ```
-A One-wire connection to pin A3.   See here [One wire 1x3 and 3x4 membrne keypad](https://ednieuw.home.xs4all.nl/Woordklok/OneWireKeyPad/OneWireKeyPad.html)
-A 6-pin connection to SDA and SCL pin A4 and A5 for a DS3231 RTC module. When no WIFI is available the software can use this very precide RTC module instead of the NTP time
+A One-wire connection to pin A3.   See here [One wire 1x3 and 3x4 membrane keypad](https://ednieuw.home.xs4all.nl/Woordklok/OneWireKeyPad/OneWireKeyPad.html)
+A 6-pin connection to SDA and SCL pin A4 and A5 for a DS3231 RTC module. When no WIFI is available the software can use this very precise RTC module instead of the NTP time
 A 3-pin connection  connected to D8 for a DCF-77 time module to get the time from a in Mainflingen (Germany) located time transmitter. [More here](https://ednieuw.home.xs4all.nl/Woordklok/DCF77_transceiver/DCFtransceiverklok.html). 
 A 5-pin connection for a rotary encoder.
 A 3-pin connection to connect a SK6812 RGBW 0r WS2812 RGB LED strip
 Fixed connection from pins A0, A1 and A2 to the three HC595 shift registers that turns on and off the ULN2803 IC's that switch on and off 12V 2835/3528 and many more white LED strips.
 A 2-pin connection from LDR to A6
-Pin A7 gives a PWM signal to the two transistors. The BC327 gives a 12V PWM signal to the white LEDs with a maximun of 800 mA. This is enough for a 50 cm large Word clock with 3 meters of 2835 LED-strip. (not all strips are on the same time) if more power is needed heavier transistors can be used or 24 relais can be turned on and off  
+Pin A7 gives a PWM signal to the two transistors. The BC327 gives a 12V PWM signal to the white LEDs with a maximum of 800 mA. This is enough for a 50 cm large Word clock with 3 meters of 2835 LED-strip. (not all strips are on the same time) if more power is needed heavier transistors can be used or 24 relays can be turned on and off  
 A 2-pin connection to D11
-A 3 pin connector connected via a 470 ohm resitor to Pin D5 throught the level shifter is used to drive the RGB(W) LED-strip
-The 74AHCT125 levelshifter shifts the data signals from pin D5, D6 and D7 from 3V3 to 5V. 
-Two 2-pin connectors for 5V signals from pin D6 and D7 throught the level shifter.
+A 3 pin connector connected via a 470 ohm resistor to Pin D5 through the level shifter is used to drive the RGB(W) LED-strip
+The 74AHCT125 level shifter shifts the data signals from pin D5, D6 and D7 from 3V3 to 5V. 
+Two 2-pin connectors for 5V signals from pin D6 and D7 through the level shifter.
 D10 and D12 connect to the right and left LED respectively.
-All pins can also be accessed from beside the Nano ESP32 connector
+All pins can also be accessed from beside the Nano ESP32 connector.
 
 
-A AMS117 step down voltege regulator can be fitted to have more power on the 3V3 pins instead of the 3V3 from the Arduino.
+A AMS117 step down voltage regulator can be fitted to have more power on the 3V3 pins instead of the 3V3 from the Arduino.
 On top of the PCB a 28L05 can be used to convert 12V to 5 V to drive the 5V part of the PCB.
 It is also possible to use the 5V of the ESP32 Nano when 12V is connected to Vin.
-%V can lso be drawn from the USB port when a USB-C cable is connected to the ESP32.
-With jumopers on the PCB the different power options can be chosen
-At last a 5V - 12V power cupply can be used and connected to the 5V-GND-12V connector at the bottom of the PCB.
+5V can also be drawn from the USB port when a USB-C cable is connected to the ESP32.
+With jumpers on the PCB the different power options can be chosen
+At last a 5V - 12V power supply can be used and connected to the 5V-GND-12V connector at the bottom of the PCB.
 ```
 
 # Components
