@@ -29,7 +29,7 @@ All LEDs functioning.
 ![image](https://github.com/user-attachments/assets/b389af7f-46d5-4fe7-89f7-c0e3d16f78d4)
 
 # Connections on the PCB.
-The software support all connected devices.
+The software support the following connected devices.
 
 - A One-wire connection to pin A3.   See here [One wire 1x3 and 3x4 membrane keypad](https://ednieuw.home.xs4all.nl/Woordklok/OneWireKeyPad/OneWireKeyPad.html)
 - A 6-pin connection to SDA and SCL pin A4 and A5 for a DS3231 RTC module. When no WIFI is available the software can use this very precise RTC module instead of the NTP time. The SDA and SCL line can be optionally pulled-up with two optional 10k resitors.
