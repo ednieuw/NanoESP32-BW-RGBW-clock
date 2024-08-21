@@ -58,9 +58,11 @@ At last a 5V - 12V power supply can be used and connected to the 5V-GND-12V conn
 For white LED clock only a 12V connection to one of the two 12V power connectors is needed. Connect the 12V to Vin with a jumper.<br>
 It is also possible to use a USB 5V to 12V cable. These are cheap and powerfull enough for the clock. Even with a simple phone power supply. 
 
-For the colour clocks it is advisable to power the LED-strip separate from the PCB. up to 100 LEDs can be powered from the 5V power connector. But keep in mind the current has to flow throught the PCB and thos thin lines can melt.<br> 
-It is safer to feed the strip at several positions with 5V and connect at least on GND to the GND of the PCB
+For the colour clocks it is advisable to power the LED-strip separate from the PCB.<br>
+Up to 100 LEDs can be powered from the 5V power connector on the PCB. But keep in mind the current has to flow throught the PCB and thos thin lines can melt if overloaded.<br> 
+It is safer to feed the strip at several positions with 5V and connect at least one GND to the GND of the PCB
 
+This PDF shows the welding positions of the components
 
 
 # Components
