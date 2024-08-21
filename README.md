@@ -62,10 +62,8 @@ For the colour clocks it is advisable to power the LED-strip separate from the P
 Up to 100 LEDs can be powered from the 5V power connector on the PCB. But keep in mind the current has to flow throught the PCB and thos thin lines can melt if overloaded.<br> 
 It is safer to feed the strip at several positions with 5V and connect at least one GND to the GND of the PCB
 
-This PDF shows the welding positions of the components
-
-
 # Components
+In [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
 ```
 
 1 x PCB Nano ESP32
