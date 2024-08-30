@@ -26,7 +26,7 @@ The PCB was designed with Fritzing and the Gerber files uploaded to PCBWay to th
 Delivery to The Netherlands was within a week. Piece of cake.<br>
 The boards looked perfect and soldering the components was easy.
 
-In [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
+In this [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
 
 [PCB in Action](https://github.com/user-attachments/assets/d6f986bc-7fbc-4ec3-888b-1f40599507ed) <br>
 All LEDs functioning.
