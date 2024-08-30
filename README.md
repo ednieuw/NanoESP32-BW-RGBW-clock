@@ -21,8 +21,7 @@ This is the ultimate fusion of all clocks; one PCB and one source code.
 The PCB's were kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
 The PCB was designed with Fritzing and the Gerber files uploaded to PCBWay to their web site.<br>
 Delivery to The Netherlands was within a week. Piece of cake.<br>
-The boards looked perfect and soldering was easy.
-
+The boards looked perfect and soldering the components was easy.
 
 In [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
 
