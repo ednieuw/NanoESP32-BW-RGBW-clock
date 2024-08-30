@@ -2,7 +2,8 @@
 
 Page under construction. Aug 2024. PCB and software are working
 
-One PCB, one source code for 2835/3528 BW and SK6812/WS2812 RGB(W) LED-strips
+One PCB, one source code for 2835/3528 BW and SK6812/WS2812 RGB(W) LED-strips that can be used to built [word clocks](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock) and Fibonacci clocks.
+
 ![PCB-ESP32V002-3D](https://github.com/user-attachments/assets/5af4b536-eb22-4bef-80e0-2ab3298e05da)
 
 The first word clock was designed with a ATMEGA328, combined with a rotary, DCF77 receiver, an accurate DS3231 RTC klok module and a Bluetooth module.
@@ -16,9 +17,11 @@ Maintaining the source code for the White LED and RGB LED clocks was a time-cons
 
 The RGB(W) clock made it possible to built a 4-language clock with 625 LEDs. The designs with one language in a 12 x 12 letter grid are much easier to built and the SK6812 RGBW LEDs can also give a pure white display and, if wished, also in any colour.
 
-This is the ultimate fusion of all clocks; one PCB and one source code.
+This is the ultimate fusion of all clocks; one PCB and one source code.<br> 
+This board is mainly designed for the 12V white LED-strips with an Arduino Nano ESP32. Adding the RGB(W) functionality was minor and now with this PCB both LED types can be used. 
+[A PCB for only RGB(W) LED-strips](https://github.com/ednieuw/NanoESP32PCB).
 
-The PCB's were kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
+This PCB design was kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
 The PCB was designed with Fritzing and the Gerber files uploaded to PCBWay to their web site.<br>
 Delivery to The Netherlands was within a week. Piece of cake.<br>
 The boards looked perfect and soldering the components was easy.
@@ -27,7 +30,6 @@ In [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-
 
 [PCB in Action](https://github.com/user-attachments/assets/d6f986bc-7fbc-4ec3-888b-1f40599507ed) <br>
 All LEDs functioning.
-
 
 ![image](https://github.com/user-attachments/assets/b389af7f-46d5-4fe7-89f7-c0e3d16f78d4)
 
