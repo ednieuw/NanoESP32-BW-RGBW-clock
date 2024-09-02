@@ -21,9 +21,9 @@ This is the ultimate fusion of all clocks; one PCB and one source code.<br>
 This board is mainly designed for the 12V white LED-strips with an Arduino Nano ESP32. Adding the RGB(W) functionality was minor and now with this PCB both LED types can be used. 
 [A PCB for only RGB(W) LED-strips](https://github.com/ednieuw/NanoESP32PCB).
 
-This PCB design was kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
-The PCB was designed with Fritzing and the Gerber files uploaded to PCBWay to their web site.<br>
-Delivery to The Netherlands was within a week. Piece of cake.<br>
+The several versions of this PCB design were kindly supported by [PCBWay](https://www.pcbway.com) that made the development of this PCB possible.<br>
+The PCB was designed with Fritzing and the Gerber files uploaded to  the PCBWay web site.<br>
+Delivery to The Netherlands was within a week. Just upload the [Gerber files from the ZIP file](https://github.com/ednieuw/NanoESP32PCB) to their site and pay the charges. Piece of cake.<br>
 The boards looked perfect and soldering the components was easy.
 
 In this [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
