@@ -6,7 +6,7 @@ One PCB, one source code for 2835/3528 BW and SK6812/WS2812 RGB(W) LED-strips th
 
 ![PCB-ESP32V002-3D](https://github.com/user-attachments/assets/5af4b536-eb22-4bef-80e0-2ab3298e05da)
 
-The first word clock was designed with a ATMEGA328, combined with a rotary, DCF77 receiver, an accurate DS3231 RTC klok module and a Bluetooth module.
+The first word clock was [designed](https://github.com/ednieuw/Woordklok-witte-LEDs) with a ATMEGA328, combined with a rotary, DCF77 receiver, an accurate DS3231 RTC klok module and a Bluetooth module.
 The electronic design was greatly simplified with the use of Arduino Nano Every and WS2812 RGB or SK6812 RGBW colour LEDs.
 
 The arrival of the ESP32 was superior to the Arduino MCU's with WIFI and Bluetooth working both simultaneously. But with too many short living boards with different footprints, sizes and, often to less, pins a suitable satisfying design could not be made.
