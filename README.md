@@ -31,6 +31,8 @@ Delivery to The Netherlands was within a week. Just upload the [Gerber files fro
 The boards looked perfect and soldering the components was easy.
 
 In this [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
+![SolderedUltimatePCB](https://github.com/user-attachments/assets/5755a473-0637-4cd6-abb2-cd6641e7e1b3)
+
 
 [PCB in Action](https://github.com/user-attachments/assets/d6f986bc-7fbc-4ec3-888b-1f40599507ed) <br>
 All LEDs functioning.
