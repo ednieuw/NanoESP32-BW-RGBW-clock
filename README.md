@@ -59,7 +59,7 @@ Fixed connection from pins A0, A1 and A2 to the three HC595 shift registers that
 - All pins can also be accessed from beside the Nano ESP32 connector.
 
 An AMS1117 step down voltage regulator an can be fitted to have more power on the 3V3 pins instead of the 3V3 from the Arduino.
-On top of the PCB a 28L05 can be used to convert 12V to 5 V to drive the 5V part of the PCB.
+On top of the PCB a 78L05 voltage regulator can be used to convert 12V to 5 V to drive the 5V part of the PCB.
 At the bottom a 12V to 5V voltage regulator can be fitted instead of the 78L05 voltage regulator.
 
 It is also possible to use the 5V of the ESP32 Nano when 12V is connected to Vin.
@@ -70,7 +70,7 @@ At last a 5V - 12V power supply can be used and connected to the 5V-GND-12V conn
 For white LED clock only a 12V connection to one of the two 12V power connectors is needed. Connect the 12V to Vin with a jumper.<br>
 It is also possible to use a USB 5V to 12V cable. These are cheap and powerfull enough for the clock. Even with a simple phone power supply. 
 
-For the colour clocks it is advisable to power the LED-strip separate from the PCB.<br>
+# For the colour clocks it is advisable to power the LED-strip separate from the PCB. Then do not connect the 5V to the LED-strip but only GND and the Data line on D5<br>
 Up to 100 LEDs can be powered from the 5V power connector on the PCB. But keep in mind the current has to flow throught the PCB and thos thin lines can melt if overloaded.<br> 
 It is safer to feed the strip at several positions with 5V and connect at least one GND to the GND of the PCB
 
