@@ -94,6 +94,8 @@ In [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-
 3 x 74HC595 8-bit shift register DIP16
 3 x ULN2803APG voltage regulator DIP18
 1 x 78L05/ L7805 voltage regulator 5V, 1.5A
+1 x 74AHCT125 level shifter
+1 x 74AHCT125 DIP14 socket
 1 x cooling element voltage regulator
 1 x 2-pin female connector (LDR)
 1 x 3-pin female connector (DCF77)
@@ -101,12 +103,8 @@ In [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-
 1 x 6-pin female connector (DS3231 RTC)
 2 x 15-pin female connector
 1 x AMS1117 5V -> 3V3 Step-Down Regulator
-1 x 12V -> 5V  voltage regulator module
+1 x 12V -> 5V  voltage regulator module (78L05 or AMS 1117 12V -> 5V)
 1 x USB cable 5V --> 12V DC
-1 x 6-pin female connector (DS3231 RTC)
-1 x 5-pin female connector (Rotary)
-1 x 3-pin female connector (DCF77)
-1 x 2-pin female connector (LDR)
 1 x pinheader 40 pins right-angled
 1 x pinheader 6 pins straight with 3 x shortcut connectors
 3 x 9-pin Dupont female connector
