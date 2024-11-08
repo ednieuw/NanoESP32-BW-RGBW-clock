@@ -37,8 +37,9 @@ In this [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoE
 [PCB in Action](https://github.com/user-attachments/assets/d6f986bc-7fbc-4ec3-888b-1f40599507ed) <br>
 All LEDs functioning.
 
+![PCBUltimateV005](https://github.com/user-attachments/assets/5e62c2aa-8987-44ea-9be9-f6130198b4a5)
 
-![PCB-ESP32WoordklokV004](https://github.com/user-attachments/assets/c2627563-c551-422a-8876-b4649c4de8f1)
+Download the [latest PCB Fritzing and gerber files here](https://github.com/ednieuw/NanoESP32PCB)
 
 # Connections on the PCB.
 The software support the following connected devices.
