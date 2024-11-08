@@ -70,8 +70,8 @@ For the white LED clock only a 12V connection to one of the two 12V power connec
 It is also possible to use a USB 5V to 12V cable. These are cheap and powerfull enough for the white LED clock. Even with a simple phone power supply. 
 
 # For the colour clocks it is advisable to power the LED-strip separate from the PCB. Then do not connect the 5V to the LED-strip but only GND and the Data line on D5<br>
-Up to 100 LEDs can be powered from the 5V power connector on the PCB. But keep in mind the current has to flow throught the PCB and thos thin lines can melt if overloaded.<br> 
-It is safer to feed the strip at several positions with 5V and connect at least one GND to the GND of the PCB
+Up to 100 LEDs can be powered from the 5V power connector on the PCB. But keep in mind the current has to flow throught the PCB and those thin lines can melt if overloaded.<br> 
+It is safer to feed the strip at several positions with 5V and connect at least one GND to the GND of the PCB.
 
 # Components
 In [PDF](https://github.com/ednieuw/NanoESP32-BW-RGBW-clock/blob/main/NanoESP32-PCB.pdf) the solder instructions are documented.
