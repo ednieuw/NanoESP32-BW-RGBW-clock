@@ -1,6 +1,8 @@
 # NanoESP32-BW-RGBW-clock
 
 One PCB, one source code for 2835/3528 BW and SK6812/WS2812 RGB(W) LED-strips that can be used to built [word clocks](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock) and Fibonacci clocks.
+<br>
+[Use the word clock selector page to compare other software/hardware designs to make.](https://github.com/ednieuw/WordclockSelector).<br>
 
 ![image](https://github.com/user-attachments/assets/a9c8ec87-1b29-44bb-b9ab-6a396af67191)
 The PCB with 24 white LEDs connected to the shift registers and a 16x16 RGB(W) LED matrix connected working simultaniously with the Nano ESP32
