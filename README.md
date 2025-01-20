@@ -40,6 +40,11 @@ All LEDs functioning.
 
 Download the latest V005 PCB Fritzing and gerber files from this page or [here](https://github.com/ednieuw/NanoESP32PCB)
 
+# Manual
+Use the manual of the RGBW ESP32 Nano Wordclock design here for the time being.
+The software works ,almost, identical.
+https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock
+
 # Connections on the PCB.
 The software support the following connected devices.
 
