@@ -26,12 +26,13 @@ const byte MATRIX_HEIGHT =  12;                                                 
 // In this case 139
 // These LEDs can also be used in the white LED clock
 //------------------------------------------------------------------------------
+                     #ifdef BWCLOCK
 #define MIN0   ColorLeds("M0",    NUM_LEDS-4, NUM_LEDS-1, black); 
 #define MIN1   ColorLeds("M1",    NUM_LEDS-4, NUM_LEDS-4, white); 
 #define MIN2   ColorLeds("M2",    NUM_LEDS-3, NUM_LEDS-3, white); 
 #define MIN3   ColorLeds("M3",    NUM_LEDS-2, NUM_LEDS-2, white);
 #define MIN4   ColorLeds("M4",    NUM_LEDS-1, NUM_LEDS-1, white);     
-
+                     #endif // BWCLOCK
 
 
             // new lay-out   

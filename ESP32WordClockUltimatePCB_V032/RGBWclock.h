@@ -38,23 +38,24 @@ extern struct tm timeinfo;                                             // Storag
 // In this case 139
 // These LEDs can also be used in the white LED clock. 
 //------------------------------------------------------------------------------
+                       #ifdef RGBCLOCK
 #define MIN0   ColorLeds("M0",    NUM_LEDS-4, NUM_LEDS-1, black); 
 #define MIN1   ColorLeds("M1",    NUM_LEDS-4, NUM_LEDS-4, LetterColor); 
 #define MIN2   ColorLeds("M2",    NUM_LEDS-3, NUM_LEDS-3, LetterColor); 
 #define MIN3   ColorLeds("M3",    NUM_LEDS-2, NUM_LEDS-2, LetterColor);
 #define MIN4   ColorLeds("M4",    NUM_LEDS-1, NUM_LEDS-1, LetterColor);                                           
-                                      
+                      #endif //RGBCLOCK                                      
 //------------------------------------------------------------------------------
 // RGBW LEDs Definition of LEDs to be used for the time.
 // Changes these numberings to your design if needed
 //------------------------------------------------------------------------------
                      #ifdef NL144CLOCK
-// const uint32_t NUM_LEDS  =  144 + 4;                             // How many leds in  strip? + 4 for the minutes
-// const byte MATRIX_WIDTH  =  12;                                  // Grid size For digital display mode.  
-// const byte MATRIX_HEIGHT =  12;                                  // Grid size For digital display mode.
-const uint32_t NUM_LEDS  =  256;   // Temporary for 16x16LED WS2812. To clear all LEDs. During uploading LEDs get randomly On and Off
-const byte MATRIX_WIDTH  =  16;                                    // Grid size For digital display mode.
-const byte MATRIX_HEIGHT =  16;                                    // Grid size For digital display mode.
+const uint32_t NUM_LEDS  =  144 + 4;                             // How many leds in  strip? + 4 for the minutes
+const byte MATRIX_WIDTH  =  12;                                  // Grid size For digital display mode.  
+const byte MATRIX_HEIGHT =  12;                                  // Grid size For digital display mode.
+// const uint32_t NUM_LEDS  =  256;                              // Temporary for 16x16LED WS2812. To clear all LEDs. During uploading LEDs get randomly On and Off
+// const byte MATRIX_WIDTH  =  16;                                    // Grid size For digital display mode.
+// const byte MATRIX_HEIGHT =  16;                                    // Grid size For digital display mode.
 
 #define HET     ColorLeds("Het",     0,   2, MINColor);   
 #define IS      ColorLeds("is",      4,   5, SECColor);  ColorLeds("", 8,10, 0); Is = true;
